@@ -13,4 +13,6 @@
 
 Route::get('/','BiorritmesController@index');
 
+Route::get('/store','BiorritmesController@store');
+
 
